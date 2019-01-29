@@ -12,7 +12,7 @@ def isDivBySeven(x):
         return True
     if ( x < 10 ):
         return False
-    return isDivBySeven( ( x / 10 ) - ( 2 * ( x % 10 ) )  - ( x % 10 ) / 10 )
+    return isDivBySeven( int ( ( x / 10 ) - ( 2 * ( x % 10 ) )  - ( x % 10 ) / 10 ) )
    
 # input: positive integer x
 # output: True or False
