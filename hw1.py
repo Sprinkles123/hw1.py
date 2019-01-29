@@ -3,15 +3,15 @@
 # input: positive integer x
 # output: True or False
 def isDivBySeven(x):
-    #print(x) # do not remove this line
+    print(x) # do not remove this line
     # negative case
    if x < 0: 
-   return isDivBySeven(-x)
+   	return isDivBySeven(-x)
    # base case
    if(x==0 or x==7 )
-   return True
+   	return True
    if (x<10):
-   return False
+   	return False
    return isDivBySeven(x/10 -2*( x - x / 10 * 10 ) ) 
    
 # input: positive integer x
