@@ -8,11 +8,11 @@ def isDivBySeven(x):
     if x < 0: 
         return isDivBySeven(-x)
     # base case
-    if(x==0 or x==7)
+    if( x == 0 or x == 7 )
         return True
-    if (x<10):
+    if ( x < 10 ):
         return False
-    return isDivBySeven(x/10 -2*( x - x / 10 * 10 ) ) 
+    return isDivBySeven( x / 10 - 2 * ( x - x / 10 * 10 ) ) 
    
 # input: positive integer x
 # output: True or False
