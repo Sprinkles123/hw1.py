@@ -3,7 +3,7 @@
 # input: positive integer x
 # output: True or False
 def isDivBySeven(x):
-    print(x) # do not remove this line
+    #print(x) # do not remove this line
     # negative case
    if x < 0: 
    return isDivBySeven(-x)
